@@ -35,7 +35,7 @@ export default function RootLayout() {
           <ActionSheetProvider>
             <NavThemeProvider value={NAV_THEME[colorScheme]}>
               <Stack screenOptions={SCREEN_OPTIONS}>
-                <Stack.Screen name="(drawer)" options={DRAWER_OPTIONS} />
+                <Stack.Screen name="(pages)" options={DRAWER_OPTIONS} />
                 <Stack.Screen name="modal" options={MODAL_OPTIONS} />
               </Stack>
             </NavThemeProvider>

@@ -37,6 +37,14 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.anonymous.packmanager"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "6295bfa7-8980-40ad-8ac9-4ec2c939f45e"
+      }
     }
   }
 }
